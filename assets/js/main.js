@@ -8,3 +8,5 @@
             menuBtn.className = "nav-menu";
         }
     }
+
+// add shadow to navigation bar while scrolling
