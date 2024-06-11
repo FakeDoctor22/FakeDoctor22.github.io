@@ -255,6 +255,31 @@ nav{
 .scroll-btn i{
     font-size: 20px;
 }
+
+/* main box */
+.section{
+    padding-block: 5em;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 50px;
+}
+.col{
+    display: flex;
+    width: 50%;
+}
+
+/* reusable css */
+.top-header{
+    text-align: center;
+    margin-bottom: 5em;
+}
+.top-header h1{
+    font-weight: 600;
+    color: var(--text-color-second);
+}
 /* media query == 1024px / responsive */
 @media only screen and (max-width: 1024px) {
     .featured-text{
