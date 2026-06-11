@@ -1,45 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <a href="#"><span>Gil Joel Villarba</span></a>
+      <a href="#" class="logo-link">
+        <span class="logo">
+          <img src="images/logo-Custom.png" alt="Logo" class="profile-img" />
+        </span>
+        <span class="logo-text">Gil Joel Villarba</span>
+      </a>
 
+      <nav class="nav">
         <ul class="navlist">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+      </nav>
 
-        <button class="visit-gh"><i class="fas fa-bars"></i></button>
+      <button class="Resume" href="#">Download Resume</button>
     </header>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm a passionate developer with experience in web development, mobile app development, and data science. I love creating innovative solutions and learning new technologies.</p>
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm a passionate developer with experience in web development,
+        mobile app development, and data science. I love creating innovative
+        solutions and learning new technologies.
+      </p>
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project One</h3>
-            <p>A web application that allows users to track their fitness goals.</p>
-        </div>
-        <div class="project">
-            <h3>Project Two</h3>
-            <p>A mobile app that helps users manage their daily tasks efficiently.</p>
-        </div>
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project One</h3>
+        <p>A web application that allows users to track their fitness goals.</p>
+      </div>
+      <div class="project">
+        <h3>Project Two</h3>
+        <p>
+          A mobile app that helps users manage their daily tasks efficiently.
+        </p>
+      </div>
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at: john.doe@example.com</p>
-        <script src="script.js"></script>
+      <h2>Contact</h2>
+      <p>You can reach me at: john.doe@example.com</p>
     </section>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
